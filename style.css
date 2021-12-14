@@ -9,6 +9,10 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0px 0px;
 }
+.margin-need{
+    margin: 2rem 0rem;
+    padding: 1rem 1rem;
+}
 hr {
     margin: 1.5rem 0rem;
 }
@@ -29,6 +33,8 @@ hr {
 .link {
     padding: 0.5rem 1rem;
     text-decoration: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .p-link {
     background: var(--primary-color);
@@ -108,4 +114,9 @@ footer {
 }
 footer .link {
     color: whitesmoke;
+}
+footer .footer-header{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
 }

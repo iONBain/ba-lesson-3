@@ -1,118 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    
-
-<link rel="stylesheet" href="style.css">
+    <title>Home | BA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Bhaskar's Component Library.</h1>
-    <p>
-        I am attending neogcamp and wanted to make a library to showcase my dev projects.
-    </p>
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>Biggest Heading</h1>
-    <h2>2nd Biggest</h2>
-    <p>This is a paragraph and it will wrap if exceeded outside bounds. You will see this here.</p>
-    <p>This is a <strong>Bold</strong> type txt.</p>
-    <small>This is relatively small, you can see it.</small>
-    <hr>
-
-    <h2>@container</h2>
-    <h3> fluid container</h3>
-    <div class="container container-fluid">this is a fluid container and will go to end of the page. </div>
-    <h3> centered container</h3>
-    <div class="container container-center">this is a centered container and will go to specify width of the page. </div>
-    <hr>
-
-    <h2>@links</h2>
-    <a href="/" class="link p-link">Primary Link</a>
-    <a href="/" class="link s-link">Secondary Link</a>
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>unordered lists</h3>
-    <ul class="list-non-bullet"> 
-        <li> Item One</li>
-        <li> Item Two</li>
-        <li> Item Three</li>
-        <li> Item Four</li>
-    </ul>
-
-    <h3>unordered inline lists</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline"> Item One</li>
-        <li class="list-item-inline"> Item Two</li>
-        <li class="list-item-inline"> Item Three</li>
-        <li class="list-item-inline"> Item Four</li>
-    </ul>
-
-    <h3> ordered lists</h3>
-
-    <h3> reverse ordered lists</h3>
-    <ol reversed>
-        <li> Item One</li>
-        <li> Item Two</li>
-        <li> Item Three</li>
-        <li> Item Four</li>
-
-    </ol>
-    <hr>
-
-    <h2>@nav</h2>
     <nav class="navigation container">
-        <div class="nav-brand">iAmBrand</div>
+        <div class="nav-brand">IAmWebDev</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href="/">Home</a>
             </li>
-            <li class="list-item-inline"><a class="link" href="/">Products</a></li>
-            <li class="list-item-inline"><a class="link" href="/">About</a></li>
+            <li class="list-item-inline"><a class="link" href="projects.html">Projects</a></li>
+            <li class="list-item-inline"><a class="link" href="blogs.html">Blogs</a></li>
         </ul>
     </nav>
-    <hr>
-    <h2>@header</h2>
+
     <header class="hero">
         <img class="hero-img" src="images/hero01.svg" alt="unavailable">
         
-        <h1 class="hero-heading">Rubiks Cube Guide</h1>
+        <h1 class="hero-heading">De Web Developer</h1>
     </header>
-    <hr>
 
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container container-center">
-            <h1>white section</h1>
-            <p>This will have white bckgnd.When I first started diving into the web development world I felt overwhelmed by the amount of information out there, and all the topics I wanted to explore and learn. I immediately found the following problems:</p>
-        </div>
-    </section>
     <section class="section ow">
         <div class="container container-center">
-            <h1>off white section</h1>
-            <p>This will have gray bckgnd. When I first started diving into the web development world I felt overwhelmed by the amount of information out there, and all the topics I wanted to explore and learn. I immediately found the following problems:</p>
+            <h1>Technologies</h1>
+            <p>I am familiarw with HTML, CSS, Javascript, ReactJS, MATLAB and Proteus Programming.</p>
         </div>
 
     </section>
-    <hr>
 
-    <h2>@footer</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I want to showcase my projects online. Please explore the button below.</p>
+            <a href="/" class="link p-link">View Projects</a>
+    
+        </div>
+
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>Visit my Blog here. Just click it -> </p>
+            <a href="/" class="link s-link">Visit Blogs</a>
+    
+        </div>
+
+    </section>
+
+
+    <!-- footer  -->
     <footer>
-        <div>Some small heading in footer</div>
+        <div class="footer-header">Connect with MEEE !</div>
         <ul class="list-non-bullet">
-            <li class="list-item-inline"><a href="/" class="link">social one </a></li>
-            <li class="list-item-inline"><a href="/" class="link">social two</a> </li>
-            <li class="list-item-inline"><a href="/" class="link">social three</a> </li>
+            <li class="list-item-inline"><a href="/" class="link">GitHub</a></li>
+            <li class="list-item-inline"><a href="/" class="link">Twitter</a> </li>
+            <li class="list-item-inline"><a href="/" class="link">LinkedIn</a> </li>
         </ul>
     </footer>
-    
 </body>
-
 </html>
