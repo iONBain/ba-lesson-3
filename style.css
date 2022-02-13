@@ -27,7 +27,7 @@ hr {
     padding-right: 1rem;
 }
 .container-center{
-    max-width: 600px;
+    max-width: 750px;
     margin: auto;
 }
 .container-fluid {
@@ -144,6 +144,23 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
     
+}
+.imgg{
+    /* background-color: var(--off-white); */
+    background-image: url(/images/tp-portfolio-ba.png);
+    background-size: 60vw;
+    border-radius: 20px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+ul{
+    list-style: none;
+}
+.paddingg{
+    padding: 15px;
+
 }
 
 footer {
