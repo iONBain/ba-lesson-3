@@ -160,6 +160,7 @@ hr {
     padding: 15px;
     background-repeat: no-repeat;
     background-position: center;
+    transition: all 0.45s ease;
     
 }
 ul{
@@ -167,7 +168,19 @@ ul{
 }
 .paddingg{
     padding: 15px;
+    border-radius: 20px;
+    border: 2px solid #e0e1e2;
+    transition: all 0.45s ease;
 
+}
+.paddingg:hover{
+    /* border: 1px solid darkslategrey; */
+    background-color: #f3f4f5;
+    background: #f3f4f5;
+    /* cursor: pointer; */
+}
+.imgg:hover{
+    background-size: 80vw;
 }
 
 footer {
@@ -197,12 +210,15 @@ footer .footer-header{
     flex-direction: row;
     gap: 1rem;
 }
-
 .black{
     color: rgb(29, 29, 29);
 }
 .green{
     color: var(--primary-color);
+    transition: all 0.4s ease;
+}
+.green:hover{
+    color: var(--secondary-color);
 }
 .italics{
     /* text-decoration: dashed; */
