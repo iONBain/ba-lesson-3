@@ -154,7 +154,8 @@ hr {
 .imgg{
     /* background-color: var(--off-white); */
     background-image: url(/images/tp-portfolio-ba.png);
-    background-size: 100vw 70vh;
+    background-color: var(--off-white);
+    background-size: 100vw;
     border-radius: 20px;
     padding: 15px;
     background-repeat: no-repeat;
@@ -169,17 +170,17 @@ ul{
     padding: 15px;
     border-radius: 20px;
     border: 2px solid #e0e1e2;
+    /* background-color: var(--off-white); */
     transition: all 0.45s ease;
-
+    
 }
 .paddingg:hover{
+    background-color: var(--off-white);
     /* border: 1px solid darkslategrey; */
-    background-color: #f3f4f5;
-    background: #f3f4f5;
     /* cursor: pointer; */
 }
 .imgg:hover{
-    background-size: 80vw 50vh;
+    background-size: 80vw;
 }
 
 footer {
