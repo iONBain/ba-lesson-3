@@ -146,7 +146,8 @@ hr {
 .ow{
     background-color: var(--off-white);
     background-image: url(/images/tp-portfolio-ba.png);
-    background-size: 100vw 70vh;
+    background-size: 100vw;
+    /* height: 100px; */
     background-repeat: no-repeat;
     background-position: center;
     
@@ -209,6 +210,10 @@ footer .footer-header{
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+.pad-left-0{
+    padding-left: 0;
+    /* padding-top: 1rem; */
 }
 .black{
     color: rgb(29, 29, 29);
