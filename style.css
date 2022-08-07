@@ -59,10 +59,13 @@ hr {
 /* lists */
 .list-non-bullet{
     list-style: none;
+    margin: 0;
+    padding: 1rem;
 }
 .list-item-inline{
     display: inline;
     padding: 0rem 0rem;
+    margin: 0;
 }
 
 /* navigation */
@@ -194,6 +197,7 @@ footer .footer-header{
     flex-direction: row;
     gap: 1rem;
 }
+
 .black{
     color: rgb(29, 29, 29);
 }
@@ -211,4 +215,7 @@ footer .footer-header{
 }
 p{
     margin: 0;
+}
+.linkNopad{
+    padding: 0;
 }
