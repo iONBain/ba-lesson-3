@@ -45,6 +45,10 @@ hr {
     background: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+    transition: all 0.4s ease;
+}
+.p-link:hover{
+    background: var(--secondary-color) ;
 }
 .s-link{
     color: var(--primary-color);
@@ -58,7 +62,7 @@ hr {
 }
 .list-item-inline{
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 0rem;
 }
 
 /* navigation */
@@ -83,7 +87,7 @@ hr {
 }
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .navigation .nav-pills{
     text-align: right;
@@ -98,8 +102,8 @@ hr {
     font-weight: bold;
     /* background-color: #f3f4f544; */
     /* background-color: var(--secondary-color); */
-    border-bottom: 2px solid var(--dark-grey);
-    border-radius: 10px;
+    border-bottom: 4px solid var(--dark-grey);
+    /* border-radius: 10px; */
 }
 .navigation .link:hover{
     color: var(--dark-grey);
@@ -184,6 +188,12 @@ footer .footer-header{
 
 
 /* utilities */
+.flex-rowwise{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
 .black{
     color: rgb(29, 29, 29);
 }
@@ -198,4 +208,7 @@ footer .footer-header{
 }
 .link2{
     text-decoration: none;
+}
+p{
+    margin: 0;
 }
