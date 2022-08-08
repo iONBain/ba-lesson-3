@@ -182,9 +182,10 @@ ul{
     /* border: 1px solid darkslategrey; */
     /* cursor: pointer; */
 }
-.imgg:hover{
+/* .imgg:hover{
     transform: scale(2,2);
-}
+    
+} */
 
 footer {
     /* border-top-left-radius: 50px; */
