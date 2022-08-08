@@ -183,7 +183,7 @@ ul{
     /* cursor: pointer; */
 }
 .imgg:hover{
-    background-size: 80vw;
+    transform: scale(2,2);
 }
 
 footer {
