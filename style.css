@@ -114,6 +114,10 @@ hr {
 .navigation .link:hover{
     color: var(--dark-grey);
 }
+.img-logo{
+    height: 1.5rem;
+    width: 1.5rem;
+}
 /* hero */
 .hero{
     /* position: absolute; */
