@@ -18,9 +18,9 @@ Here are a few project-related insight pictures:
 1. > The Landing Page 
 ![landing page](./images/landing.png)
 2. > The Project Section
-![project section](./images/projectSection.png)
+![project section](./images/projPer.png)
 3. The Blogs Section
-![landingpage](./images/output5.png)
+![blog section](./images/blogPer.png)
 
 
 If you liked the portfolio, let's connect !
