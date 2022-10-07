@@ -15,15 +15,15 @@ In this website, you can browse through my projects developed in process of lear
 
 Here are a few project-related insight pictures:
 
-1. > The Landing Page 
+1. The Landing Page 
 ![landing page](./images/landing.png)
-2. > The Project Section
+2. The Project Section
 ![project section](./images/projPer.png)
 3. The Blogs Section
 ![blog section](./images/blogPer.png)
 
 
-If you liked the portfolio, let's connect !
+If you liked the [portfolio](https://tp-lesson-3-ba.netlify.app/), let's connect !
 <p> &emsp;&emsp;
     <a href="https://www.linkedin.com/in/bhaskar-agrawal-598b5a16b/" target="_blank">
         <img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
